@@ -237,7 +237,7 @@ if (window.location.protocol != "https:"){window.location.href = "https:" + wind
 		if(hurt === false){
 			ct.fillStyle=white;
 		}else{
-			ct.fillStyle="#FF0000";
+			ct.fillStyle="yellow";
 			hurtCounter += 1;
 		}
 		if(hurtCounter > 45 && hurt){
