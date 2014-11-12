@@ -223,7 +223,7 @@ if (window.location.protocol != "https:"){window.location.href = "https:" + wind
 	function getLow(){
 		justUnder = ct.getImageData(6*scale+horizMargin,12*scale+vertMargin+move,1,1);
 		green = justUnder.data[1];
-		if(green === 255){
+		if(green >100){
 			searching = false;
 	        hillY = move;
 		}
